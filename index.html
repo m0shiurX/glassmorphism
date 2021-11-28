@@ -9,42 +9,46 @@
 	<link rel="stylesheet" href="./assets/css/tailwind.css">
 </head>
 
-<body class="font-poppins bg-black">
+<body class="font-poppins bg-gray-900 h-screen">
 	<!--======START OF CONTENT========-->
 
+	<div class="relative max-w-3xl min-w-min min-h-screen mx-auto py-20  grid place-items-center">
+		<div class="isolate w-96 h-52 rounded-2xl mx-auto grid place-items-center group">
+			<!-- circle 1 -->
+			<div
+				class="bg-gradient-to-tr from-purple-400 to-purple-800 h-96 w-96 rounded-full absolute -right-8 top-40 transform translate-x-6 ease-out duration-500 group-hover:top-36 group-hover:-right-0">
+			</div>
+			<!-- circle 2 -->
+			<div
+				class="bg-gradient-to-tr from-purple-400 hue-rotate-90 to-purple-600 h-80 w-80 rounded-full absolute left-0 bottom-40 duration-500 group-hover:left-8">
+			</div>
+			<!-- circle 3 -->
+			<div
+				class="bg-gradient-to-tr from-purple-400 hue-rotate-30 to-purple-800 h-36 w-36 rounded-full absolute left-1/4 top-72 group-hover:top-80 group-hover:left-40 duration-500">
+			</div>
 
-	<div class="isolate max-w-3xl min-w-min min-h-screen mx-auto py-20 grid place-items-center relative group">
-		<!-- circle 1 -->
-		<div
-			class="bg-gradient-to-tr from-purple-400 to-purple-800 h-96 w-96 rounded-full absolute -right-8 top-40 transform translate-x-6 ease-out duration-500 group-hover:top-36 group-hover:-right-0">
-		</div>
-		<!-- circle 2 -->
-		<div
-			class="bg-gradient-to-tr from-purple-400 hue-rotate-90 to-purple-600 h-80 w-80 rounded-full absolute left-0 bottom-40 duration-500 group-hover:left-8">
-		</div>
-		<!-- circle 3 -->
-		<div
-			class="bg-gradient-to-tr from-purple-400 hue-rotate-30 to-purple-800 h-36 w-36 rounded-full absolute left-1/4 top-72 group-hover:top-80 group-hover:left-40 duration-500">
-		</div>
+			<!-- Card -->
+			<div
+				class="cursor-pointer relative bg-white bg-opacity-30 bg-blend-soft-light backdrop-blur-md rounded-2xl w-96 h-52 border border-white shadow p-4">
+				<div class="flex flex-col h-full justify-between items-end">
+					<div class="isolate">
+						<h3
+							class="text-2xl leading-6 w-full text-right uppercase tracking-wider text-white group-hover:text-opacity-100 text-opacity-60 bg-blend-multiply">
+							Moshiur Rahman</h3>
+						<p class="w-full text-sm text-right text-gray-300 group-hover:text-gray-900">Creative Director
+						</p>
+						<p class="w-full text-base text-right text-gray-300 group-hover:text-gray-900">Chromatic
+							Technology
+						</p>
+					</div>
 
-		<!-- Card -->
-		<div
-			class="cursor-pointer relative bg-white bg-opacity-30 bg-blend-soft-light backdrop-blur-md rounded-2xl w-96 h-52 border border-white shadow p-4">
-			<div class="flex flex-col h-full justify-between items-end">
-				<div class="isolate">
-					<h3
-						class="text-2xl leading-6 w-full text-right uppercase tracking-wider text-white group-hover:text-opacity-100 text-opacity-60 bg-blend-multiply">
-						Moshiur Rahman</h3>
-					<p class="w-full text-right text-gray-500 group-hover:text-gray-900">Creative Director</p>
+					<h5
+						class="text-xl text-center py-1 px-2 w-full leading-relaxed text-gray-900 bg-gray-200 bg-opacity-80 group-hover:bg-opacity-100 rounded-lg mix-blend-soft-light">
+						moshiur@chromatic.network</h5>
 				</div>
-
-				<h5
-					class="text-xl text-center py-1 px-2 w-full leading-relaxed text-gray-900 bg-gray-200 bg-opacity-80 group-hover:bg-opacity-100 rounded-lg mix-blend-soft-light">
-					moshiur@chromatic.network</h5>
 			</div>
 		</div>
 	</div>
-
 	<!--======END OF CONTENT========-->
 	<script type="module" src="./assets/js/main.js"></script>
 </body>
